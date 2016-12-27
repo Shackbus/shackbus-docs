@@ -1,0 +1,83 @@
+baseurl = "https://shackbus.org/"
+languageCode = "en-us"
+title = "Shackbus"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "Tobias Wellnitz, DH1TW"
+	description = "Shackbus - A standard to interconnect your radio station"
+	copyright = "Released under the MIT license"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/shackbus/shackbus-docs"
+
+	version = "0.1.0"
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "red"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = "shackbus"
+	github  = "shackbus"
+	email   = "tobias.wellnitz@gmail.com"
+
+
+[[menu.main]]
+	name   = "Overview"
+	url    = "overview/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Specification"
+	url    = "specification/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Getting started"
+	url    = "getting-started/"
+	weight = 30
+
+# [[menu.main]]
+# 	name   = "Roadmap"
+# 	url    = "roadmap/"
+# 	weight = 40
+
+[[menu.main]]
+	name   = "Contribute"
+	url    = "contribute/"
+	weight = 50
+
+[[menu.main]]
+	name   = "License"
+	url    = "license/"
+	weight = 50
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true

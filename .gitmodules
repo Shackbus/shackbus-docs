@@ -1,0 +1,3 @@
+[submodule "shackbus.org/themes/hugo-material-docs"]
+	path = shackbus.org/themes/hugo-material-docs
+	url = https://github.com/digitalcraftsman/hugo-material-docs.git
