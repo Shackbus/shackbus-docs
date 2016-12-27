@@ -6,7 +6,7 @@ This repository contains the documentation shown at
 and compiled into HTML using the superb static website generator
 [HUGO](https://gohugo.io).
 
-## How to install Hugo
+## Install Hugo
 
 ### Windows & Linux
 
@@ -24,7 +24,7 @@ Use the superb packet manager [Homebrew](http://brew.sh) and execute:
 There are also more detailed installation instructions available on the
 [Hugo website](https://gohugo.io/overview/installing/).
 
-### Download Shackbus documentation
+## Download Shackbus documentation
 
 The easiest way to download the documentation is by doing a `git clone` of
 this repository.
