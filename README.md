@@ -31,7 +31,13 @@ this repository.
 
 ```sh
     $ git clone https://github.com/shackbus/shackbus-docs.git
+    $ git submodule update --init --recursive
 ```
+
+Since the Hugo theme has been included as a __git submodule__, you have to
+run the second command once so that the theme repository will be downloaded
+as well.
+
 
 If you expect to make (and submit) changes to the docs, the best would be
 to create a Fork and then checkout your fork.
