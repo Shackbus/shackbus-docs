@@ -36,7 +36,7 @@ this repository.
 If you expect to make (and submit) changes to the docs, the best would be
 to create a Fork and then checkout your fork.
 
-### Start local http server
+## Start local http server
 
 Go the the path of the repository and execute
 
